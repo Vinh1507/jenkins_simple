@@ -20,14 +20,4 @@ pipeline {
             }
         }
     }
-    post {
-        success {
-            // Actions to be performed if the pipeline succeeds
-            echo 'Pipeline succeeded!'
-        }
-        failure {
-            // Actions to be performed if the pipeline fails
-            echo 'Pipeline failed!'
-        }
-    }
 }
